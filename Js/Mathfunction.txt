@@ -1,0 +1,15 @@
+let Mani=Math.abs(-56)
+console.log(Mani);  
+
+let Mani=Math.round(5.3)
+console.log(Mani);
+
+let Mani=Math.floor(5.3)//5 only print aagum point print aagathu
+console.log(Mani);
+
+let Mani=Math.max(5,3)
+console.log(Mani);
+
+let Mani=Math.min(5,3)
+console.log(Mani);
+

@@ -4,5 +4,9 @@ let Student={
     college:"bannari"
 
 }
- let array=Object.key(Student);
- console.table(array);
+ let array_key=Object.keys(Student);
+ console.table(array_key);
+
+let array_value=Object.values(Student);
+console.table(array_value)
+
