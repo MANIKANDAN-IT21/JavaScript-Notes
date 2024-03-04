@@ -40,3 +40,20 @@ console.log(num)// nothing will be printed
 let numbers="01245367";
 num=numbers.slice(39,090);
 console.log(num)// last 3 numbers 367
+
+//split
+
+let mani="mani is the good boy in class"
+full=mani.split(" ");
+console.log(mani)// 'mani' 'is' 'the'....
+
+let mani="mani is the good boy in class"
+full=mani.split("is");
+console.log(mani)// mani
+                    is the good boy in class
+
+//trim( white space remove pana )
+
+let mani="      mani is the good boy in class        ";
+let full=mani.trim();
+console.log(full.length);
