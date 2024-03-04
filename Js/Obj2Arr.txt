@@ -1,0 +1,8 @@
+let Student={
+    id:177,
+    name:"mani",
+    college:"bannari"
+
+}
+ let array=Object.key(Student);
+ console.table(array);
