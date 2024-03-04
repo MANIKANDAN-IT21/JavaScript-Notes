@@ -1,0 +1,42 @@
+//substring(start,end)-parameter kadipa irukanum that mean start and end
+* negative use pana mudiyathu but use pana use value print aagum
+
+let numbers="01234567";
+num=number.substring(0,3);
+console.log(num)//012
+
+let numbers="01234567";
+num=number.substring(3,0);// change panikum automatica
+console.log(num)//012
+
+let numbers="01245367";
+num=numbers.substring(3);
+console.log(num)//4567
+
+let numbers="01245367";
+num=numbers.substring(3,93);
+console.log(num)//err length
+
+//slice(start,end)-parameter kadipa irukanum that mean start and end
+start-index solum & end- postion ahh solum
+* negative character print panum num.slice(-3) // last three postion
+
+let numbers="01245367";
+num=numbers.slice(1,3);
+console.log(num)//4567
+
+let numbers="01245367";
+num=numbers.slice(3,1);// auto change panthu
+console.log(num)// nothig will be printed
+
+let numbers="01245367";
+num=numbers.slice(3);// 3postion aprm irukura values elam print aagum
+console.log(num)//4567
+
+let numbers="01245367";
+num=numbers.slice(39,090);
+console.log(num)// nothing will be printed
+
+let numbers="01245367";
+num=numbers.slice(39,090);
+console.log(num)// last 3 numbers 367
