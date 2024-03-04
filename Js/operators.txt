@@ -1,0 +1,35 @@
+*artic operator
+*Assign operator
+*comparsion
+
+let a=2;
+let b=20;
+console.log(a+b);add
+console.log(a-b);sub
+console.log(a*b);mul
+console.log(a**b);a^2
+console.log(a/b); div
+console.log(a%b); modulas
+console.log(a++);incre
+______________________________________________
+Assignment operators
+
+a=5
+a=a+5; or a+=5;a=a+5; or a+=5;
+a=a-5; or a-=5;
+a=a/5; or a/=5;
+a=a*5; or a*=5;
+a=a%5; or a%=5;
+
+console.log(a);
+________________________________________________
+comparsion operator(=,==,===)
+a=10
+b=10
+console.log(a==b)//true
+console.log(a===b)//true
+
+a=10
+b=10
+console.log(a==b)//true
+

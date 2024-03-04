@@ -1,0 +1,36 @@
+Type conversion
+
+let name="mani";
+console.log(name,typeof name); //mani "string"
+
+<boolean>=1-true 0-false;
+
+let name=true;
+name=Number(name); //caseSen
+console.log(name,typeof name);//1 "number"
+____________NaN__________________
+
+let name="mani";
+name=Number(name); //caseSen
+console.log(name,typeof name); //NaN "number"
+
+let name="13274871236";
+name=String(name); //caseSen
+console.log(name,typeof name); //1342341326 "number"
+
+
+let name="6767";
+name=Number(name); //caseSen
+console.log(name,typeof name); //6767 "number"
+
+
+
+let name=[1,2,3];
+name=Number(name); //caseSen
+console.log(name,typeof name);
+-------------------------------------------------------------------------
+Type coerision
+*** let a=10;
+let b="67"
+console.log(a+b); // concate (stirng+int=concate)
+

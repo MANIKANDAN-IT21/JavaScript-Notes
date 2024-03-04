@@ -1,0 +1,60 @@
+js is dynamic programming
+for eg 
+let name=mani;
+let name=90;
+-------------------------------------------------------------------
+			Data Type 
+Preme-datatypes(ithu la thn default value irukum)
+string
+number
+boolean
+symbol
+null
+Undefined
+
+Non-premi or reference datatype(ithu la default value irukathu)
+array 
+object
+function
+date
+_______________________________________________________________________
+eg:(typeof)
+let a=25;
+console.log(typeof a)// number
+
+let a=23.3;
+console.log(typeof a);//number
+
+let a=udefined;
+console.log(typeof a);// anonumous
+
+let a="mani";
+console.log(typeof a);//String
+
+let a=True;
+console.log(typeof a);//Boolean
+
+let a=null;
+console.log(typeof a);//Object
+
+let a;
+console.log(typeof a);//Undefined or anoumous
+
+let a=!^&*&%$^ % & *();
+console.log(typeof a);//er ano
+
+let a=;
+console.log(typeof a);//String
+
+* Date
+let d=new Date();
+console.log(typeof d);//object
+* array
+let a=[1,2,3];
+console.log(typeof a);//object
+* object
+let a={
+name:"mani";
+};
+console.log(typeof a);// object
+
